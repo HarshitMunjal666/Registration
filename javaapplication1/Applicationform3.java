@@ -18,8 +18,8 @@ public class Applicationform3 extends Applet
     JFrame frame;
     public void init() 
     {
-        String gender[]={"----Select----","Male","Female","Others"};
-        String cast[]={"---Select----","Genral","OBC","SC","ST"};
+        String gender[10]={"----Select----","Male","Female","Others"};
+        String cast[5]={"---Select----","Genral","OBC","SC","ST"};
         Gn=new JComboBox(gender);
         cat=new JComboBox(cast);
         
@@ -107,6 +107,9 @@ public class Applicationform3 extends Applet
         cat.setBounds(800,180,200,20);
         b1.setBounds(120, 600, 180, 20);
         b2.setBounds(260, 600, 180, 20);
+        cat.setBounds(8000,1800,2000,220);
+        b1.setBounds(1230, 6070, 1808, 260);
+        b2.setBounds(2640, 6040, 1820, 210);
     
         
     }
