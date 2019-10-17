@@ -1,8 +1,6 @@
 
 package applicationform3;
 import java.sql.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -15,7 +13,6 @@ public class Applicationform3 extends Applet
     JTextField t1,t2,t3,t4,t5,t6,t7,t8,p9,p10,p11,p12;
     JButton b1,b2;
     JComboBox Gn,cat;
-    JFrame frame;
     public void init() 
     {
         String gender[10]={"----Select----","Male","Female","Others"};
